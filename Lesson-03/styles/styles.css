@@ -1,0 +1,46 @@
+
+    /*Comment one */
+    * {
+
+        box-sizing: border-box;
+        /*        border: 1px dashed yellow;*/
+    }
+    body {
+        font-size: 16px;
+        color: cornflowerblue;
+        background-color:gray;
+        width:100%;
+    }
+    .views {
+        width:33%;
+        border: 1px outset black;
+
+    }
+    p {
+        color: DarkSeaGreen;
+    }
+/*
+    .main-paragraph:hover {
+        background-color: rgba(125,200,125,0.4);
+        font-size: 1.5rem;
+    }
+*/
+    
+  
+    .main-paragraph {
+       width:33%;
+        text-align:justify;
+        padding:5px;
+    }
+    
+    a[href="../about-me.html"] {
+        color:yellow;
+    }
+    
+    a:hover {
+        background-color:black;
+        color:white;
+    }
+    a:visited {
+        color: green;
+    }
