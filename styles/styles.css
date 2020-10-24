@@ -7,6 +7,9 @@
 body {
     background-color:white;
     font-size:100%;
+    background-image:url(../images/FiN-logo.png);
+    color:#ebebeb;
+    
 }
 h1 {
    margin: 0px 20px 0px auto;
@@ -32,10 +35,15 @@ nav li {
 nav a {
     display:block;
     text-decoration:none;
+    color:#ebebeb;
+    
 }
 nav a:hover {
-    background:black;
-    color:white;
+    background:white;
+    color:black;
+}
+nav a:visited {
+    color: #3498BF;
 }
 h2 {
    margin-bottom: 20px;
@@ -51,10 +59,21 @@ h4 {
     margin-bottom: 10px;
 }
 article p {
+
    margin-bottom:10px;
    margin-top: 5px;
 }
-article img {
+.articles p {
+    margin-left: auto;
+    margin-right: auto;
+}
+.articles a {
+    display:block;
+    color:#ebebeb;
+}
+.articles img {
+    display: block;
+    width: 25%;
 }
 aside {
     width: 340px;
