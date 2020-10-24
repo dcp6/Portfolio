@@ -8,7 +8,7 @@ body {
     background-color:white;
     font-size:100%;
     background-image:url(../images/FiN-logo.png);
-    color:#ebebeb;
+    color:white;
     
 }
 h1 {
@@ -74,6 +74,7 @@ article p {
 .articles img {
     display: block;
     width: 25%;
+    margin-bottom: 10px;
 }
 aside {
     width: 340px;
