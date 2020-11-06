@@ -29,6 +29,15 @@ nav {
     font-family:ArialMT;
     
 }
+.rates {
+    margin-left:190px;
+    margin-bottom:20px;
+    font-family:ArialMT;
+}
+.rates li {
+    list-style-type:none;
+    margin-bottom:10px;
+}
 nav li {
     float:left;
     margin-right:15px;
