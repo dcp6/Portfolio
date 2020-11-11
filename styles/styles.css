@@ -11,10 +11,32 @@ body {
     color:black;
     
 }
+
 h1 {
    margin: 0px 20px 0px auto;
-   text-align: center;
+   display:flex;
+   justify-content: center;
    font-family: 'Josefin Sans', sans-serif;
+}
+.lander-h2 {
+    display:flex;
+    justify-content: center;
+    margin-top:25px;
+}
+.robot-container {
+    
+}
+.robot {
+    width:500px;
+    display:flex;
+    justify-content:center;
+   margin: 0px auto;
+    
+}
+.lander-image {
+    width:15%;
+    display:flex;
+    justify-content:center;
 }
 div#wrapper {
     width:94%;
@@ -45,7 +67,7 @@ nav a:visited {
     color: #3498BF;
 }
 .lander-image {
-    width:50%;
+    width:15%;
     margin: 0px auto;
 }
 h2 {
