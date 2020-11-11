@@ -6,10 +6,9 @@
 }
 
 body {
-    background-color:white;
     font-size:100%;
-    background-image:url(../images/FiN-logo.png);
-    color:white;
+    background-color:white;
+    color:black;
     
 }
 h1 {
@@ -35,15 +34,19 @@ nav li {
 nav a {
     display:block;
     text-decoration:none;
-    color:#ebebeb;
+    color:#000 !important;
     
 }
 nav a:hover {
-    background:white;
-    color:black;
+    background:black;
+    color:white !important;
 }
 nav a:visited {
     color: #3498BF;
+}
+.lander-image {
+    width:50%;
+    margin: 0px auto;
 }
 h2 {
    margin-bottom: 20px;
@@ -67,6 +70,12 @@ p {
 a {
     font-family: 'Lato', sans-serif;
     text-decoration:none;
+    color: #000 !important;
+    color:inherit;
+}
+#wrapper a:visited {
+    color:black;
+    color:inherit;
 }
 article p {
 
@@ -118,7 +127,6 @@ footer a {
     text-decoration:none;
 }
 .social-media-icons {
-    width:5%;
     display:inline-block;
-    position:fixed;
+    width:40px;
 }
