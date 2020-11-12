@@ -17,26 +17,20 @@ h1 {
    display:flex;
    justify-content: center;
    font-family: 'Josefin Sans', sans-serif;
+    /*display flex is used here*/
 }
 .lander-h2 {
     display:flex;
     justify-content: center;
     margin-top:25px;
-}
-.robot-container {
-    
+    /*display flex is also used here */
 }
 .robot {
-    width:500px;
-    display:flex;
-    justify-content:center;
+     width:400px;
    margin: 0px auto;
-    
-}
-.lander-image {
-    width:15%;
     display:flex;
-    justify-content:center;
+    justify-content: center;  
+/*here, setting the margin alone did not center the image. please test to confirm my results*/
 }
 div#wrapper {
     width:94%;
