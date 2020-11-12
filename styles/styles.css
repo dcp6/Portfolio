@@ -119,6 +119,16 @@ article p {
     display:flex;
     justify-items: center;
 }
+.row {
+    width:27.33%;
+    margin-right:4%;
+    margin-bottom:4%;
+    float:left;
+}
+.row img {
+    height: 100%;
+    border:black solid 2px;
+}
 aside {
     width: 34%;
     float:left; 
@@ -134,7 +144,7 @@ article li {
     font-family: "Lato", sans-serif;
 }
 footer {
-    text-align:center;
+  text-align:center;
     height: 50px;
     clear:both;
     line-height:50px;
@@ -155,13 +165,4 @@ footer a {
 
 /*This is the test section*/
 
-.row {
-    width:27.33%;
-    margin-right:4%;
-    margin-bottom:4%;
-    float:left;
-}
-.row img {
-    width: 100%;
-    border:black solid 2px;
-}
+
