@@ -117,7 +117,9 @@ article p {
     width:27.33%;
     margin-right:4%;
     margin-bottom:4%;
+   
     float:left;
+    /*I want to use flexbox here but cannot figure it out*/
 }
 .row img {
     height: 100%;
