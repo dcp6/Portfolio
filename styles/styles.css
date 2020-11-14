@@ -9,7 +9,7 @@ body {
     font-size:100%;
     background-color:white;
     color:black;
-    margin:10px;
+    margin:20px;
 }
 
 h1 {
@@ -33,7 +33,7 @@ h1 {
 /*here, setting the margin alone did not center the image. please test to confirm my results*/
 }
 div#wrapper {
-    width:94%;
+    width:92%;
     margin: 0px auto;
     
 }
@@ -61,7 +61,7 @@ nav a:visited {
     color: #3498BF;
 }
 .lander-image {
-    width:15%;
+    width:13%;
     margin: 0px auto;
 }
 h2 {
@@ -120,13 +120,18 @@ article p {
 }
 .row {
     width:27.33%;
-    margin-right: 4%;
+    margin-left: 4%;
     margin-bottom:4%;
 /*    float:left;*/
     /*I want to use flexbox here but cannot figure it out*/
 }
 .row img {
     width:100%;
+    transition: transform 2s;
+    z-index: 2;
+}
+.row img:hover {
+    transform:scale(1.5);
 }
 aside {
     width: 34%;
