@@ -113,17 +113,20 @@ article p {
     display:flex;
     justify-items: center;
 }
+.row-container {
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
 .row {
     width:27.33%;
-    margin-right:4%;
+    margin-right: 4%;
     margin-bottom:4%;
-   
-    float:left;
+/*    float:left;*/
     /*I want to use flexbox here but cannot figure it out*/
 }
 .row img {
-    height: 100%;
-    border:black solid 2px;
+    width:100%;
 }
 aside {
     width: 34%;
