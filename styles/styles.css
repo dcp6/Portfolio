@@ -60,6 +60,12 @@ nav a:hover {
 nav a:visited {
     color: #3498BF;
 }
+.home nav li:nth-child(1) a,
+.about nav li:nth-child(2) a {
+    background:black;
+    color:white !important;
+/*My usage of nth child*/
+}
 .lander-image {
     width:13%;
     margin: 0px auto;
@@ -121,7 +127,7 @@ article p {
 }
 .row {
     width:27.33%;
-    margin-left:4%;
+    margin-left:3%;
 }
 .row img {
     width:100%;
@@ -129,6 +135,7 @@ article p {
 }
 .row img:hover {
     transform:scale(1.5);
+    
 }
 aside {
     width: 34%;
@@ -149,6 +156,7 @@ footer {
     height: 50px;
     clear:both;
     line-height:50px;
+    font-family: 'Josefin Sans', sans-serif;
 }
 footer li {
     float:left;
