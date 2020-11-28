@@ -1,0 +1,177 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    width:100%;
+}
+
+body {
+    font-size:100%;
+    background-color:white;
+    color:black;
+    margin:20px;
+}
+
+h1 {
+   margin: 0px 20px 0px auto;
+   display:flex;
+   justify-content: center;
+   font-family: 'Josefin Sans', sans-serif;
+    /*display flex is used here*/
+}
+.lander-h2 {
+    display:flex;
+    justify-content: center;
+    margin-top:25px;
+    /*display flex is also used here */
+}
+.robot {
+     width:400px;
+   margin: 0px auto;
+    display:flex;
+    justify-content: center;  
+/*here, setting the margin alone did not center the image. please test to confirm my results*/
+}
+div#wrapper {
+    width:92%;
+    margin: 0px auto;
+    
+}
+nav { 
+    height:50px;
+    line-height:50px;
+}
+nav li {
+    float:left;
+    width:50%;
+    list-style-type: none;
+    text-align: center;
+}
+nav a {
+    display:block;
+    text-decoration:none;
+    color:#000 !important;
+    
+}
+nav a:hover {
+    background:black;
+    color:white !important;
+}
+nav a:visited {
+    color: #3498BF;
+}
+.home nav li:nth-child(1) a,
+.about nav li:nth-child(2) a {
+    background:black;
+    color:white !important;
+/*My usage of nth child*/
+}
+.lander-image {
+    width:13%;
+    margin: 0px auto;
+}
+h2 {
+   margin-bottom: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+main {
+    width: 58%;
+    float:left;
+}
+h3 {
+    margin-bottom: 10px;
+     font-family: 'Josefin Sans', sans-serif;
+}
+h4 {
+    margin-bottom: 10px;
+     font-family: 'Josefin Sans', sans-serif;
+}
+p {
+    font-family: 'Lato', sans-serif;
+}
+a {
+    font-family: 'Lato', sans-serif;
+    text-decoration:none;
+    color: #000 !important;
+    color:inherit;
+}
+#wrapper a:visited {
+    color:black;
+    color:inherit;
+}
+article p {
+
+   margin-bottom:10px;
+   margin-top: 5px;
+}
+.articles p {
+    margin-left: auto;
+    margin-right: auto;
+}
+.articles a {
+    display:block;
+    color:#ebebeb;
+}
+.articles img {
+    display: block;
+    width: 25%;
+    margin-bottom: 10px;
+    display:flex;
+    justify-items: center;
+}
+.row-container {
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    
+}
+.row {
+    width:27.33%;
+    margin-left:3%;
+}
+.row img {
+    width:100%;
+    transition: all 2s;
+}
+.row img:hover {
+    transform:scale(1.5);
+    
+}
+aside {
+    width: 34%;
+    float:left; 
+    margin-left:20px;
+}
+header p {
+    margin-bottom: 20px;
+}
+.self-portrait {
+    width:35%;
+}
+article li {
+    font-family: "Lato", sans-serif;
+}
+footer {
+  text-align:center;
+    height: 50px;
+    clear:both;
+    line-height:50px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+footer li {
+    float:left;
+    list-style-type: none;
+    color:white;
+}
+footer a {
+    color:white;
+    text-decoration:none;
+}
+.social-media-icons {
+    display:inline-block;
+    width:40px;
+}
+
+/*This is the test section*/
+
+
